@@ -1,0 +1,126 @@
+i {
+  text-decoration: none;
+  display: block;
+}
+
+/* Formattage de la Main Screen */
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: 687px;
+}
+
+/* IMAGE DE BACKGROUND */
+.main__image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* display: inline-block; */
+  width: 1000px;
+  z-index: -1;
+  opacity: 0.2;
+}
+
+.main__city {
+  font-size: 2.5rem;
+  font-family: "Roboto";
+  margin-top: 2.5rem;
+}
+.main__weather__icon{
+  /* background-color: #777; */
+position: relative;
+top: 0px;
+left:29%;
+}
+
+.main__weather__icon svg{
+  /* background-color: #777; */
+position: relative;
+}
+
+.main__weather__icon img {
+  display: block;
+width: 200px;
+position: relative;
+top: 50%;
+left: 50%;
+transform:translate(-50%,-50%)
+}
+
+/* .main__weather__icon + svg {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+} */
+
+.main__weather__icon--other {
+  display: flex;
+  align-items: center;
+}
+
+.main__weather__icon--other p {
+  font-size: 1.25rem;
+  margin-right: 1rem;
+}
+
+.main__temp__actuelle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__temp__actuelle p {
+  font-size: 2rem;
+}
+
+.main__temp__extremes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 21.8rem;
+}
+
+.main__temp__extremes--min,
+.main__temp__extremes--max {
+  display: flex;
+  align-items: center;
+  width: 21.8rem;
+}
+
+.main__temp__extremes--min p,
+.main__temp__extremes--max p {
+  font-size: 1.5rem;
+}
+
+.main__temp__extremes--min {
+  justify-content: flex-start;
+}
+
+.main__temp__extremes--max {
+  justify-content: flex-end;
+}
+
+.main__sun {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 21.8rem;
+}
+
+.main__sun__sunrise {
+  display: flex;
+  align-items: center;
+}
+
+.main__sun__sunset {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.main__sun__sunset p,.main__sun__sunrise p{
+font-size: 1.5rem;
+}

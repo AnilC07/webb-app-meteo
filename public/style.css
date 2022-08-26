@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1920px;
+    height: 1024px;
+    background-color: #e8e8e8;
+}
+
+/* SEARCH */
+
+.search {
+    /* height: 8.8rem; */
+    background-color: rgb(195, 211, 247);
+}
+
+.search__component {
+    display: flex;
+    justify-content: center; 
+    padding-bottom: 1rem;   
+}
+
+.search__label {
+    display: block;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 3rem;
+}
+
+.search__component__input {
+    width: 82rem;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 1.1rem
+}
+
+.search__component__btn {
+    padding: 1.1rem;
+    margin-left: 5px;
+}
+
+/* MAIN */
+
+.main{
+    height: 40.75rem;
+    background-color:lightblue;
+    position: relative;
+}
+
+.main__icon{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+}
+
+/* FAVORIS */
+
+.favoris{
+    /* height: 14.43rem; */
+    background-color: lightcoral;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .container{
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid black;
+} */
+
+.favoris__card{
+width: 300px;
+height: 250px;
+border: 1px solid black;
+margin: 1rem 0;
+border-radius: 5px;
+position: relative;
+}
+
+.card__icon{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+}
+
+.card__city{
+    text-align: center;
+}
